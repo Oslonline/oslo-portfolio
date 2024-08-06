@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "title": "Bingo Portfolio",
+    "short_desc": "Portfolio website for Bingops, a Devops student. Made with ReactJS, TailwindCSS and based on a figma design.",
+    "stacks": ["reactjs", "tailwindcss", "vitejs"],
+    "link": "https://bingops.com/",
+    "card_img_src": "/projects_img/p-1.webp",
+    "type": "Website"
+  },
+  {
+    "id": "2",
+    "title": "Oslo's Toolbox",
+    "short_desc": "An opensource website with a variety of tools (units converter, css generators, password generator, ip lookup....) for free.",
+    "stacks": ["reactjs", "tailwindcss", "vitejs", "opensource"],
+    "link": "https://oslo-toolbox.vercel.app/",
+    "card_img_src": "/projects_img/p-2.webp",
+    "type": "Website"
+  },
+  {
+    "id": "3",
+    "title": "Billie Eilish",
+    "short_desc": "Design file based on Billie Eilish to learn figma, can be used on another theme/subject i keep adding more design to the file.",
+    "stacks": ["figma"],
+    "link": "https://www.figma.com/community/file/1284299172509827157/billie-eilish-designs-album-cover",
+    "card_img_src": "/projects_img/p-3.webp",
+    "type": "Design"
+  },
+  {
+    "id": "4",
+    "title": "Aix-T-Tic Auto",
+    "short_desc": "Website for Aix-T-Tic Auto, a family-owned auto repair shop in Aix-les-Bains, France with a strong reputation for quality and customer relations.",
+    "stacks": ["nextjs", "supabase", "typescript"],
+    "link": "https://aixttic.com",
+    "card_img_src": "/projects_img/p-4.webp",
+    "type": "Website"
+  },
+  {
+    "id": "5",
+    "title": "Sky Connect Trading LLC",
+    "short_desc": "Website for a Dubai based company called SKy Connect Trading working in the crude oil, import, export, refining and general trading products.",
+    "stacks": ["reactjs", "tailwindcss", "vitejs"],
+    "link": "https://skycgt.com/",
+    "card_img_src": "/projects_img/p-5.webp",
+    "type": "Website"
+  }
+]
