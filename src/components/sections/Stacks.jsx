@@ -2,11 +2,12 @@ import { FaReact, FaNodeJs, FaPhp, FaGithub, FaGitAlt } from "react-icons/fa";
 import { FaBootstrap, FaSymfony, FaVuejs } from "react-icons/fa6";
 import { FiFigma } from "react-icons/fi";
 import { RiSupabaseLine } from "react-icons/ri";
-import { SiNextdotjs, SiTailwindcss, SiExpress, SiLaravel, SiMysql, SiPostgresql, SiMongodb } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss, SiExpress, SiMysql, SiPostgresql, SiMongodb, SiJavascript } from "react-icons/si";
 
 export default function Stacks() {
   const stacks = {
     frontend: [
+      { name: "Javascript", icon: <SiJavascript className="h-6 w-6" /> },
       { name: "React", icon: <FaReact className="h-6 w-6" /> },
       { name: "Next.js", icon: <SiNextdotjs className="h-6 w-6" /> },
       { name: "Vue.js", icon: <FaVuejs className="h-6 w-6" /> },
