@@ -14,7 +14,7 @@ export default function Projects() {
         </div>
       </div>
       <a href="https://github.com/Oslonline" className="group mt-4">
-        <p className="flex items-center gap-2 text-sm font-semibold uppercase duration-200 group-hover:gap-4">
+        <p className="flex items-center gap-2 text-center text-sm font-semibold uppercase duration-200 group-hover:gap-4 md:text-start">
           More on github <FaArrowRightLong />
         </p>
       </a>

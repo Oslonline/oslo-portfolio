@@ -33,7 +33,7 @@ export default function Stacks() {
 
         <div className="flex flex-col items-center gap-8">
           {Object.keys(stacks).map((category) => (
-            <div key={category} className="flex gap-4">
+            <div key={category} className="flex gap-4 flex-wrap justify-center md:justify-start">
               {stacks[category].map(({ name, icon }) => (
                 <div key={name} className="flex select-none items-center gap-2 rounded-md bg-gray-50 px-4 py-2 text-center text-lg font-medium shadow-sm">
                   {icon}
