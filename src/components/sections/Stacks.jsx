@@ -1,5 +1,5 @@
 import { FaReact, FaNodeJs, FaPhp } from "react-icons/fa";
-import { FaBootstrap, FaVuejs } from "react-icons/fa6";
+import { FaBootstrap, FaSymfony, FaVuejs } from "react-icons/fa6";
 import { RiSupabaseLine } from "react-icons/ri";
 import { SiNextdotjs, SiTailwindcss, SiExpress, SiLaravel, SiMysql, SiPostgresql, SiMongodb } from "react-icons/si";
 
@@ -16,7 +16,7 @@ export default function Stacks() {
       { name: "Node.js", icon: <FaNodeJs className="h-6 w-6" /> },
       { name: "Express", icon: <SiExpress className="h-6 w-6" /> },
       { name: "PHP", icon: <FaPhp className="h-6 w-6" /> },
-      { name: "Laravel", icon: <SiLaravel className="h-6 w-6" /> },
+      { name: "Symfony", icon: <FaSymfony className="h-6 w-6" /> },
     ],
     database: [
       { name: "MySQL", icon: <SiMysql className="h-6 w-6" /> },
@@ -33,7 +33,7 @@ export default function Stacks() {
 
         <div className="flex flex-col items-center gap-8">
           {Object.keys(stacks).map((category) => (
-            <div key={category} className="flex gap-4 flex-wrap justify-center md:justify-start">
+            <div key={category} className="flex flex-wrap justify-center gap-4 md:justify-start">
               {stacks[category].map(({ name, icon }) => (
                 <div key={name} className="flex select-none items-center gap-2 rounded-md bg-gray-50 px-4 py-2 text-center text-lg font-medium shadow-sm">
                   {icon}
