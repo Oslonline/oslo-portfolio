@@ -4,7 +4,7 @@ import ProjectsCard from "../ProjectsCard";
 
 export default function Projects() {
   return (
-    <section className="flex flex-col justify-center mt-32">
+    <section className="mt-32 flex flex-col justify-center">
       <div className="flex w-full flex-col items-center gap-8 rounded-t-md p-4">
         <h3 className="text-center font-mono text-4xl font-semibold">Work</h3>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
