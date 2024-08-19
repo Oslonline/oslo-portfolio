@@ -12,7 +12,7 @@
     "id": "2",
     "title": "Oslo's Toolbox",
     "short_desc": "An opensource website with a variety of tools (units converter, css generators, password generator, ip lookup....) for free.",
-    "stacks": ["reactjs", "tailwindcss", "vitejs", "opensource"],
+    "stacks": ["open-source", "reactjs", "tailwindcss", "vitejs"],
     "link": "https://oslo-toolbox.vercel.app/",
     "card_img_src": "/projects_img/p-2.webp",
     "type": "Website"
@@ -38,7 +38,7 @@
   {
     "id": "5",
     "title": "Sky Connect Trading LLC",
-    "short_desc": "Website for a Dubai based company called SKy Connect Trading working in the crude oil, import, export, refining and general trading products.",
+    "short_desc": "Website for a Dubai based company called Sky Connect Trading working in the crude oil, import, export, refining and general trading products.",
     "stacks": ["reactjs", "tailwindcss", "vitejs"],
     "link": "https://skycgt.com/",
     "card_img_src": "/projects_img/p-5.webp",

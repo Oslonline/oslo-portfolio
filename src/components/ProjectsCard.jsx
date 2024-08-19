@@ -18,13 +18,13 @@ const ProjectCard = ({ p }) => {
       <div className="flex flex-col">
         <p className="text-lg font-bold">{p.title}</p>
         <p className="line-clamp-2">{p.short_desc}</p>
-        <ul className="flex flex-wrap gap-2 pt-2">
+        <div className="flex flex-wrap gap-2 pt-2">
           {p.stacks.map((stack, index) => (
-            <li key={index} className="dark:bg-gray-150 w-fit select-none rounded-full bg-gray-200 px-2 py-0.5 text-sm text-gray-600">
+            <span key={index} className="dark:bg-gray-150 w-fit select-none rounded-full bg-gray-200 px-2 py-0.5 text-sm text-gray-600">
               {stack}
-            </li>
+            </span>
           ))}
-        </ul>
+        </div>
       </div>
     </a>
   );
