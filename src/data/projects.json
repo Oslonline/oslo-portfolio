@@ -19,6 +19,15 @@
   },
   {
     "id": "3",
+    "title": "Opensource Hub",
+    "short_desc": "A plateform to share opensource projects, with github signin & import repositories.",
+    "stacks": ["nextjs", "typescript", "tailwindcss"],
+    "link": "https://opensource-hub-tau.vercel.app/",
+    "card_img_src": "/projects_img/p-6.webp",
+    "type": "Website"
+  },
+  {
+    "id": "4",
     "title": "Billie Eilish",
     "short_desc": "Design file based on Billie Eilish to learn figma, can be used on another theme/subject i keep adding more design to the file.",
     "stacks": ["figma"],
@@ -27,7 +36,7 @@
     "type": "Design"
   },
   {
-    "id": "4",
+    "id": "5",
     "title": "Aix-T-Tic Auto",
     "short_desc": "Website for Aix-T-Tic Auto, a family-owned auto repair shop in Aix-les-Bains, France with a strong reputation for quality and customer relations.",
     "stacks": ["nextjs", "supabase", "typescript"],
@@ -36,7 +45,7 @@
     "type": "Website"
   },
   {
-    "id": "5",
+    "id": "6",
     "title": "Sky Connect Trading LLC",
     "short_desc": "Website for a Dubai based company called Sky Connect Trading working in the crude oil, import, export, refining and general trading products.",
     "stacks": ["reactjs", "tailwindcss", "vitejs"],
