@@ -11,8 +11,8 @@ const ProjectCard = ({ p }) => {
   };
 
   return (
-    <a href={p.link} className="group relative flex flex-col gap-2 self-start rounded-md bg-gray-50 p-4 shadow-sm duration-200 md:hover:scale-[1.02]">
-      <div className="relative h-28 w-full rounded-t-md bg-cover bg-center bg-no-repeat filter duration-200 group-hover:filter-none md:grayscale" style={{ backgroundImage: `url(${p.card_img_src})` }}>
+    <a href={p.link} className="group relative flex flex-col gap-2 self-start rounded-md bg-gray-50 p-4 shadow-sm duration-150 hover:shadow-md md:hover:scale-[1.02]">
+      <div className="relative h-28 w-full rounded-t-md bg-cover bg-center bg-no-repeat filter duration-150 group-hover:filter-none md:grayscale" style={{ backgroundImage: `url(${p.card_img_src})` }}>
         <span className={`absolute right-2 top-2 rounded-full px-1.5 py-[1px] text-sm ${getBadgeStyle(p.type)}`}>{p.type}</span>
       </div>
       <div className="flex flex-col">
