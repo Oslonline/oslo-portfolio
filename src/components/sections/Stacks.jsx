@@ -1,5 +1,5 @@
 import { FaReact, FaNodeJs, FaPhp, FaGithub, FaGitAlt } from "react-icons/fa";
-import { FaBootstrap, FaSymfony, FaVuejs } from "react-icons/fa6";
+import { FaBootstrap, FaSquarespace, FaSymfony, FaVuejs, FaWordpress } from "react-icons/fa6";
 import { FiFigma } from "react-icons/fi";
 import { RiSupabaseLine } from "react-icons/ri";
 import { SiNextdotjs, SiTailwindcss, SiExpress, SiMysql, SiPostgresql, SiMongodb, SiJavascript } from "react-icons/si";
@@ -25,6 +25,10 @@ export default function Stacks() {
       { name: "PostgreSQL", icon: <SiPostgresql className="h-6 w-6" /> },
       { name: "MongoDB", icon: <SiMongodb className="h-6 w-6" /> },
       { name: "Supabase", icon: <RiSupabaseLine className="h-6 w-6" /> },
+    ],
+    cms: [
+      { name: "Wordpress", icon: <FaWordpress className="h-6 w-6" /> },
+      { name: "Squarespace", icon: <FaSquarespace className="h-6 w-6" /> },
     ],
     other: [
       { name: "Git", icon: <FaGitAlt className="h-6 w-6" /> },
