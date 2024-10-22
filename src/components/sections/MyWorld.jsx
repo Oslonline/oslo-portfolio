@@ -12,7 +12,7 @@ export default function MyWorld() {
           </span>
         </div>
         <div className="group relative h-fit duration-150 md:translate-y-48 md:hover:scale-105">
-          <img className="w-full rounded-md filter duration-200 group-hover:filter-none sm:h-72 md:grayscale lg:h-80" src="/my-world/cat.webp" alt="" />
+          <img className="w-full max-w-lg rounded-md filter duration-200 group-hover:filter-none sm:h-72 md:grayscale lg:h-80" src="/my-world/cat.webp" alt="" />
           <span className="absolute bottom-2 left-2 mr-2 rounded-md bg-gray-50 px-2 py-1 text-gray-700">
             <p className="text-xs md:text-sm">This is my cat. I love cats, who doesn't?</p>
           </span>
