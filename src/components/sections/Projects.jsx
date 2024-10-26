@@ -7,7 +7,7 @@ export default function Projects() {
     <section className="mt-32 flex flex-col justify-center">
       <div className="flex w-full flex-col items-center gap-8 rounded-t-md p-4">
         <h3 className="text-center font-mono text-4xl font-semibold">Work</h3>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 lg:gap-12 2xl:gap-16 md:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4">
           {projectsData.map((project) => (
             <ProjectsCard key={project.id} p={project} />
           ))}
