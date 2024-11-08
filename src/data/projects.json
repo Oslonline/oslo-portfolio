@@ -6,7 +6,8 @@
     "stacks": ["open-source", "reactjs", "tailwindcss", "vitejs"],
     "link": "https://oslo-toolbox.vercel.app/",
     "card_img_src": "/projects_img/p-2.webp",
-    "type": "Website"
+    "type": "Website",
+    "category": "Sideproject"
   },
   {
     "id": "2",
@@ -15,7 +16,8 @@
     "stacks": ["metmuseum-api", "reactjs", "tailwindcss", "vitejs"],
     "link": "https://infinite-art.vercel.app/",
     "card_img_src": "/projects_img/p-7.webp",
-    "type": "Website"
+    "type": "Website",
+    "category": "Sideproject"
   },
   {
     "id": "3",
@@ -24,7 +26,8 @@
     "stacks": ["reactjs", "tailwindcss", "vitejs"],
     "link": "https://bingops.com/",
     "card_img_src": "/projects_img/p-1.webp",
-    "type": "Website"
+    "type": "Website",
+    "category": "Portfolio"
   },
   {
     "id": "4",
@@ -33,7 +36,8 @@
     "stacks": ["figma"],
     "link": "https://www.figma.com/community/file/1284299172509827157/billie-eilish-designs-album-cover",
     "card_img_src": "/projects_img/p-3.webp",
-    "type": "Design"
+    "type": "Design",
+    "category": "Design"
   },
   {
     "id": "5",
@@ -42,7 +46,8 @@
     "stacks": ["nextjs", "typescript", "tailwindcss"],
     "link": "https://opensource-hub-tau.vercel.app/",
     "card_img_src": "/projects_img/p-6.webp",
-    "type": "Website"
+    "type": "Website",
+    "category": "Sideproject"
   },
   {
     "id": "6",
@@ -51,7 +56,8 @@
     "stacks": ["nextjs", "supabase", "typescript"],
     "link": "https://aixttic.com",
     "card_img_src": "/projects_img/p-4.webp",
-    "type": "Website"
+    "type": "Website",
+    "category": "Business"
   },
   {
     "id": "7",
@@ -60,6 +66,7 @@
     "stacks": ["reactjs", "tailwindcss", "vitejs"],
     "link": "https://skycgt.com/",
     "card_img_src": "/projects_img/p-5.webp",
-    "type": "Website"
+    "type": "Website",
+    "category": "Business"
   }
 ]
