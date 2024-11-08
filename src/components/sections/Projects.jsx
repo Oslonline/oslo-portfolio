@@ -13,6 +13,10 @@ export default function Projects() {
     return acc;
   }, {});
 
+  for (const category in groupedProjects) {
+    groupedProjects[category].sort((a, b) => b.id - a.id);
+  }
+
   const sortedCategories = categoryOrder.filter((category) => groupedProjects[category]);
 
   return (
