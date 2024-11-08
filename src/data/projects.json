@@ -42,7 +42,7 @@
   {
     "id": "5",
     "title": "Opensource Hub",
-    "short_desc": "A plateform to share opensource projects, with github signin & import repositories.",
+    "short_desc": "A sharing plateform for opensource projects, with github signin, import repositories & dynamic database updating.",
     "stacks": ["nextjs", "typescript", "tailwindcss"],
     "link": "https://opensource-hub-tau.vercel.app/",
     "card_img_src": "/projects_img/p-6.webp",
@@ -68,5 +68,15 @@
     "card_img_src": "/projects_img/p-5.webp",
     "type": "Website",
     "category": "Business"
+  },
+  {
+    "id": "8",
+    "title": "Image Dithering - Floyd Steinberg algorithm",
+    "short_desc": "Transform you images with a dithering effect using the Floyd Steinberg Algorithm & custom patterns.",
+    "stacks": ["react", "typescript", "tailwindcss", "vitejs"],
+    "link": "https://steinberg-image.vercel.app/",
+    "card_img_src": "/projects_img/p-8.webp",
+    "type": "Website",
+    "category": "Sideproject"
   }
 ]
