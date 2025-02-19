@@ -16,7 +16,7 @@ export default function Socials() {
               </svg>
             </a>
           </div>
-          <p className="rounded-md bg-gray-50 px-2 py-0.5 text-gray-700 shadow-sm">oslo418@proton.me</p>
+          <p className="rounded-md bg-gray-50 px-2 py-0.5 text-gray-700 shadow-xs">oslo418@proton.me</p>
         </div>
       </div>
     </section>

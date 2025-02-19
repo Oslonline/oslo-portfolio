@@ -39,14 +39,14 @@ export default function Stacks() {
 
   return (
     <section className="flex w-full justify-center py-32">
-      <div className="w-full max-w-screen-xl">
+      <div className="w-full max-w-(--breakpoint-xl)">
         <p className="mb-8 text-center font-mono text-4xl font-semibold">Stacks</p>
 
         <div className="flex flex-col items-center gap-4 md:gap-8">
           {Object.keys(stacks).map((category) => (
             <div key={category} className="flex flex-wrap justify-center gap-4 md:justify-start">
               {stacks[category].map(({ name, icon }) => (
-                <div key={name} className="flex select-none items-center gap-2 rounded-md bg-gray-50 px-4 py-2 text-center text-lg font-medium shadow-sm">
+                <div key={name} className="flex select-none items-center gap-2 rounded-md bg-gray-50 px-4 py-2 text-center text-lg font-medium shadow-xs">
                   {icon}
                   <span>{name}</span>
                 </div>
