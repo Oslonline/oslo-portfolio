@@ -31,7 +31,7 @@
   },
   {
     "id": "4",
-    "title": "Billie Eilish",
+    "title": "Billie Eilish Designs",
     "short_desc": "Design file based on Billie Eilish to learn figma, can be used on another theme/subject i keep adding more design to the file.",
     "stacks": ["figma"],
     "link": "https://www.figma.com/community/file/1284299172509827157/billie-eilish-designs-album-cover",
@@ -82,7 +82,7 @@
   {
     "id": "9",
     "title": "La Petite Brasserie - Restaurant",
-    "short_desc": "Landing page website for La Petite Brasserie, a restaurant in Le Port, La Réunion, built with Squarespace CMS for easy content management.",
+    "short_desc": "Website for La Petite Brasserie, a restaurant based in Le Port, La Réunion Island, built with Squarespace CMS for easy content management.",
     "stacks": ["squarespace"],
     "link": "https://lapetite-brasserie.com/",
     "card_img_src": "/projects_img/p-9.webp",
