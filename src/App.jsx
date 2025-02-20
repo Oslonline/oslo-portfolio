@@ -1,17 +1,26 @@
-import Layout from "./Layout";
+import { useState } from "react";
+import FancyLayout from "./layouts/FancyLayout";
+import MinimalistLayout from "./layouts/MinimalistLayout";
 
 function App() {
+  const [isFancy, setIsFancy] = useState(false);
+
+  const toggleLayout = () => {
+    setIsFancy(!isFancy);
+  };
+
   return (
-    <>
-      <div className="fixed left-0 top-0 h-full w-full">
-        <div className="absolute inset-0 -z-10 min-h-full w-full bg-gray-50 bg-[radial-gradient(#D6D3D1_1px,transparent_1px)] text-zinc-950 [background-size:16px_16px]"></div>
-        <div className="absolute bottom-auto left-auto right-0 top-0 -z-10 h-[500px] w-[500px] -translate-x-[20%] translate-y-[10%] rounded-full bg-cyan-500 opacity-20 blur-[90px]"></div>
-        <div className="absolute bottom-auto left-auto right-0 top-0 -z-10 h-[500px] w-[500px] -translate-x-[70%] translate-y-[50%] rounded-full bg-indigo-500 opacity-20 blur-[90px]"></div>
-      </div>
-      <div className="relative">
-        <Layout />
-      </div>
-    </>
+    <div className="relative">
+      <label className="fixed bottom-4 right-5 z-50 flex cursor-pointer flex-col items-center gap-1">
+        <div className={`text-xs text-zinc-500`}>{isFancy ? "Fancy" : "Minimalist"}</div>
+        <div className="relative">
+          <input type="checkbox" className="sr-only" checked={isFancy} onChange={toggleLayout} />
+          <div className={`block h-4 w-16 rounded-full transition-colors duration-200 ${isFancy ? "bg-cyan-500" : "bg-gray-600"}`}></div>
+          <div className={`dot absolute left-1 top-1 h-2 w-6 rounded-full bg-white transition-transform duration-200 ${isFancy ? "translate-x-8" : "translate-x-0"}`}></div>
+        </div>
+      </label>
+      {isFancy ? <FancyLayout /> : <MinimalistLayout />}
+    </div>
   );
 }
 

@@ -1,5 +1,5 @@
 import { FaArrowRightLong } from "react-icons/fa6";
-import projectsData from "../../data/projects.json";
+import projectsData from "../../../data/projects.json";
 import ProjectsCard from "../ProjectsCard";
 
 export default function Projects() {
