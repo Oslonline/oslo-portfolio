@@ -93,7 +93,7 @@ export default function MinimalistLayout() {
             <a target="_blank" className="rounded border border-zinc-700 px-2 py-0.5 duration-150 hover:bg-zinc-700 hover:text-zinc-50" href="https://github.com/Oslonline">
               Github
             </a>
-            <a target="_blank" className="rounded border border-zinc-700 px-2 py-0.5 duration-150 hover:bg-zinc-700 hover:text-zinc-50" href="">
+            <a target="_blank" className="rounded border border-zinc-700 px-2 py-0.5 duration-150 hover:bg-zinc-700 hover:text-zinc-50" href="https://www.linkedin.com/in/benic-lucas/">
               LinkedIn
             </a>
             <a target="_blank" className="rounded border border-zinc-700 px-2 py-0.5 duration-150 hover:bg-zinc-700 hover:text-zinc-50" href="https://x.com/Oslo418">
