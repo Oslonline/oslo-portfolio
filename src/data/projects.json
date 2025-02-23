@@ -88,5 +88,15 @@
     "card_img_src": "/projects_img/p-9.webp",
     "type": "Website",
     "category": "Business"
+  },
+  {
+    "id": "10",
+    "title": "Randoms designs",
+    "short_desc": "Randoms figma designs, posters, films, image altering...",
+    "stacks": ["figma"],
+    "link": "https://www.figma.com/community/file/1475336518213348743/random-designs-oslo418",
+    "card_img_src": "/projects_img/p-9.webp",
+    "type": "Design",
+    "category": "Design"
   }
 ]
