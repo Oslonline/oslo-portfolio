@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
 import projects from "../data/projects.json";
+import { HiOutlineExternalLink } from "react-icons/hi";
+import { GoLinkExternal } from "react-icons/go";
+import { FiExternalLink } from "react-icons/fi";
 
 const categorizeProjects = (projects, categoriesOrder) => {
   const categorizedProjects = {};
@@ -104,6 +107,12 @@ export default function MinimalistLayout() {
             </a>
           </span>
         </section>
+        <a target="_blank" href="https://blog.oslo418.dev">
+          <p className="mb-1 flex items-center gap-2 text-lg font-semibold hover:text-zinc-300 md:text-xl lg:text-2xl">
+            Blog
+            <FiExternalLink className="translate-y-0.5" />
+          </p>
+        </a>
       </div>
     </div>
   );
