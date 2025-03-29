@@ -88,5 +88,15 @@
     "card_img_src": "/projects_img/p-9.webp",
     "type": "Website",
     "category": "Business"
+  },
+  {
+    "id": "10",
+    "title": "Personal Blog - AI written articles",
+    "short_desc": "Personal blog with AI written articles, optimized for SEO, built with NextJS, Typescript, Supabase, Shadcn and TailwindCSS.",
+    "stacks": ["nextjs", "typescript", "typescript", "supabase", "tailwindcss"],
+    "link": "https://blog.oslo418.com/",
+    "card_img_src": "/projects_img/p-10.webp",
+    "type": "Website",
+    "category": "Sideproject"
   }
 ]
