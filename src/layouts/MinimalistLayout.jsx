@@ -107,7 +107,7 @@ export default function MinimalistLayout() {
             </a>
           </span>
         </section>
-        <a target="_blank" href="https://blog.oslo418.dev">
+        <a target="_blank" href="https://blog.oslo418.com">
           <p className="mb-1 flex items-center gap-2 text-lg font-semibold hover:text-zinc-300 md:text-xl lg:text-2xl">
             Blog
             <FiExternalLink className="translate-y-0.5" />
