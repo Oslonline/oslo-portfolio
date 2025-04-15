@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Oslo's Toolbox",
-    "short_desc": "An opensource website with a variety of tools (units converter, css generators, password generator, ip lookup....) for free.",
+    "short_desc": "An opensource toolbox website with a variety of online tools like (units converter, css generators, image altering tools, ip lookup....) for free.",
     "stacks": ["open-source", "reactjs", "tailwindcss", "vitejs"],
     "link": "https://oslo-toolbox.vercel.app/",
     "card_img_src": "/projects_img/toolbox.webp",
@@ -60,17 +60,7 @@
     "category": "Business"
   },
   {
-    "id": "8",
-    "title": "Image Dithering - Floyd Steinberg algorithm",
-    "short_desc": "Transform you images with a dithering effect using the Floyd Steinberg Algorithm & custom patterns.",
-    "stacks": ["react", "typescript", "tailwindcss", "vitejs"],
-    "link": "https://steinberg-image.vercel.app/",
-    "card_img_src": "/projects_img/p-8.webp",
-    "type": "Website",
-    "category": "Sideproject"
-  },
-  {
-    "id": "9",
+    "id": "7",
     "title": "La Petite Brasserie - Restaurant",
     "short_desc": "Website for La Petite Brasserie, a restaurant based in Le Port, La Réunion Island, built with Squarespace CMS for easy content management.",
     "stacks": ["squarespace"],
@@ -80,13 +70,23 @@
     "category": "Business"
   },
   {
-    "id": "10",
+    "id": "8",
     "title": "Personal Blog - AI written articles",
-    "short_desc": "Personal blog with AI written articles, optimized for SEO, built with NextJS, Typescript, Supabase, Shadcn and TailwindCSS.",
+    "short_desc": "Personal blog with AI written articles, optimized for SEO, built with NextJS, Typescript, Supabase, Shadcn/ui & TailwindCSS.",
     "stacks": ["nextjs", "typescript", "typescript", "supabase", "tailwindcss"],
     "link": "https://blog.oslo418.com/",
     "card_img_src": "/projects_img/p-10.webp",
     "type": "Website",
     "category": "Sideproject"
+  },
+  {
+    "id": "9",
+    "title": "Personal Portfolio",
+    "short_desc": "Personal portfolio (your watching it right now !) built with vite, reactjs, tailwindcss and framer motion.",
+    "stacks": ["reactjs", "tailwindcss", "framer-motion"],
+    "link": "https://github.com/Oslonline/oslo-portfolio",
+    "card_img_src": "/projects_img/portfolio.webp",
+    "type": "Website",
+    "category": "Portfolio"
   }
 ]
