@@ -112,6 +112,7 @@ export default function MinimalistLayout() {
             Blog
             <FiExternalLink className="translate-y-0.5" />
           </p>
+          <span className="text-sm font-normal italic">(AI generated articles)</span>
         </a>
       </div>
     </div>
