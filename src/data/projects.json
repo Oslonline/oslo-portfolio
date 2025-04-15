@@ -5,7 +5,7 @@
     "short_desc": "An opensource website with a variety of tools (units converter, css generators, password generator, ip lookup....) for free.",
     "stacks": ["open-source", "reactjs", "tailwindcss", "vitejs"],
     "link": "https://oslo-toolbox.vercel.app/",
-    "card_img_src": "/projects_img/p-2.webp",
+    "card_img_src": "/projects_img/toolbox.webp",
     "type": "Website",
     "category": "Sideproject"
   },
@@ -25,7 +25,7 @@
     "short_desc": "Portfolio website for Bingops, a Devops student. Made with ReactJS, TailwindCSS and based on a figma design.",
     "stacks": ["reactjs", "tailwindcss", "vitejs"],
     "link": "https://bingops.com/",
-    "card_img_src": "/projects_img/p-1.webp",
+    "card_img_src": "/projects_img/bingops.webp",
     "type": "Website",
     "category": "Portfolio"
   },
@@ -35,7 +35,7 @@
     "short_desc": "Design file based on Billie Eilish to learn figma, can be used on another theme/subject i keep adding more design to the file.",
     "stacks": ["figma"],
     "link": "https://www.figma.com/community/file/1284299172509827157/billie-eilish-designs-album-cover",
-    "card_img_src": "/projects_img/p-3.webp",
+    "card_img_src": "/projects_img/billieilish.webp",
     "type": "Design",
     "category": "Design"
   },
@@ -56,16 +56,6 @@
     "stacks": ["nextjs", "supabase", "typescript"],
     "link": "https://aixttic.com",
     "card_img_src": "/projects_img/p-4.webp",
-    "type": "Website",
-    "category": "Business"
-  },
-  {
-    "id": "7",
-    "title": "Sky Connect Trading LLC",
-    "short_desc": "Website for a Dubai based company called Sky Connect Trading working in the crude oil, import, export, refining and general trading products.",
-    "stacks": ["reactjs", "tailwindcss", "vitejs"],
-    "link": "https://skycgt.com/",
-    "card_img_src": "/projects_img/p-5.webp",
     "type": "Website",
     "category": "Business"
   },
