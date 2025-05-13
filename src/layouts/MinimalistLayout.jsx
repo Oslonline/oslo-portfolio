@@ -40,7 +40,7 @@ export default function MinimalistLayout() {
         <section>
           <h1 className="mb-1 text-lg font-semibold md:text-xl lg:text-2xl">About me</h1>
           <p className="text-zinc-300">
-            Hi, I'm Lucas/Oslo418 a 19 years-old cyber enthusiast based in the French Alps and currently aspiring to become a web developer. I recently earned an{" "}
+            Hi, I'm Lucas/Oslo418 a 20 years-old cyber enthusiast based in the French Alps and currently aspiring to become a web developer. I recently earned an{" "}
             <a className="text-cyan-500 underline duration-75 hover:text-cyan-400" href="https://www.francecompetences.fr/recherche/rncp/37674/">
               RNCP Level 5 title
             </a>{" "}
